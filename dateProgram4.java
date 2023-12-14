@@ -85,7 +85,7 @@ public class dateProgram4
         if((year%4==0 && year%100!=0)||year%400==0)
         {
             numberOfDays[2]=29;
-            while(day>29)
+            while(day>=29)
             {
                 day=day-numberOfDays[monthNumber];
                 monthNumber++;
